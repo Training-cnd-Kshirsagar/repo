@@ -1,6 +1,5 @@
 package test.pivotal.pal.tracker;
 
-import io.pivotal.pal.tracker.InMemoryTimeEntryRepository;
 import io.pivotal.pal.tracker.TimeEntry;
 import org.junit.Test;
 
@@ -9,6 +8,8 @@ import java.util.List;
 
 import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
+
+import io.pivotal.pal.tracker.InMemoryTimeEntryRepository;
 
 public class InMemoryTimeEntryRepositoryTest {
     @Test
